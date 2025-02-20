@@ -72,6 +72,19 @@ function filterOut(origString, arrRemove) {
 filterOut(original, toRemove);
 
 // Iteration 5 | Unique Arrays
+const duplicateWords = [
+  "crab",
+  "poison",
+  "contagious",
+  "simple",
+  "bring",
+  "sharp",
+  "playground",
+  "poison",
+  "communion",
+  "simple",
+  "bring",
+];
 
 function uniquifyArray(wordList) {
   let uniqueArray = [];
@@ -86,41 +99,6 @@ function uniquifyArray(wordList) {
   }
   return uniqueArray;
 }
-
-// const duplicateWords = [
-//   "crab",
-//   "poison",
-//   "contagious",
-//   "simple",
-//   "bring",
-//   "sharp",
-//   "playground",
-//   "poison",
-//   "communion",
-//   "simple",
-//   "bring",
-// ];
-
-// function uniquifyArray(origList) {
-
-//   let uniqueArray = [];
-
-//   if (origList.length === 0) {
-//     return null;
-//   } else if () {
-//     origList ===
-//   }
-
-//   else {
-//   for (let i = 0; i < origList.length; i++) {
-//      if (uniqueArray.indexOf(origList[i]) === -1) {
-//       uniqueArray.push(origList[i]);
-//     }
-//   }
-//   return uniqueArray;
-// }
-// }
-// console.log(uniquifyArray(duplicateWords))
 
 // Bonus: Iteration 6 | Product of Adjacent Numbers
 const matrix = [
